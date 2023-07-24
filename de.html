@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form name="sample" action="#" method="post">
+<fieldset>
+<legend>Your Details:</legend>
+<p>Name: <input type="text" name="fname">
+</p>
+<p>Email:
+<input type="text" name="email">
+</p>
+</fieldset>
+<fieldset>
+<legend>Your Review:</legend>
+<label>How did you hear about us?</label >
+<select name="source" id="source" >
+<option value="choose">choose</option>
+<option value="Google">Google</option>
+<option value="news">news</option>
+<option value="advertisement">ad</option>
+</select>
+<p>Would you visit again?</p><input type="radio" name="possiblity" value="yes"/>Yes
+<input type="radio" name="possiblity" value="no"/>no<br>
+<label>Comments</label><br>
+<textarea rows="5" cols="50" name="comments"></textarea><br>
+<input type="checkbox" id="email" name="email" value="email">
+<label for="email" >Sign me up for email address</label>
+<p><button type="submit">Submit review</button></p>
+</fieldset>
+</form>
+</body>
+</html>
